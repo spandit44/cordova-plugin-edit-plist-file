@@ -30,18 +30,11 @@
     <!-- ios -->
     <platform name="ios">
         
-        <!-- iOS9 whitelisting -->
-        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
-            <array>
-                <string>twitter</string>
-                <string>fb</string>
-                <string>whatsapp</string>
-                <string>itms-apps</string>
-                <string>youtube</string>
-                <string>soundcloud</string>
-                <string>fb-messenger</string>
-                <string>instagram</string>
-            </array>
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <dict>
+                <key>NSPhotoLibraryUsageDescription</key>
+                <string>This application needs access for uploading the documents for verification</string>
+            </dict>
         </config-file>
         
         
