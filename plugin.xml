@@ -31,10 +31,7 @@
     <platform name="ios">
         
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <dict>
-                <key>NSPhotoLibraryUsageDescription</key>
-                <string>This application needs access for uploading the documents for verification</string>
-            </dict>
+            <string>This application needs access for uploading the documents for verification</string>
         </config-file>
         
         
